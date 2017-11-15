@@ -1,0 +1,35 @@
+package edu.stevens.cs548.clinic.research;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: DrugTreatmentRecord
+ *
+ */
+@Entity
+
+public class DrugTreatmentRecord implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public DrugTreatmentRecord() {
+		super();
+	}
+   
+	@Id @GeneratedValue
+	private long id;
+	
+	@Temporal(TemporalType.DATE)
+	private Date date;
+	
+	private String drugName;
+	
+	private float dosage;
+	
+	@ManyToOne
+	private Subject subject;
+}

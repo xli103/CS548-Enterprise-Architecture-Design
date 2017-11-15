@@ -1,0 +1,33 @@
+package edu.stevens.cs548.clinic.domain;
+
+import javax.persistence.EntityManager;
+
+public class ProviderDAO implements IProviderDAO {
+	
+	private EntityManager em;
+	private TreatmentDAO treatmentDAO;
+	
+	public ProviderDAO(EntityManager em) {
+		this.em = em;
+		this.treatmentDAO = new TreatmentDAO(em);
+	}
+
+	@Override
+	public long addProvider(Provider prov) throws ProviderExn {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Patient getProvider(long npi) throws ProviderExn {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletePatients() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

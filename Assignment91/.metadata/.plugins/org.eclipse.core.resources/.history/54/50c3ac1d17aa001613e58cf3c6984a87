@@ -1,0 +1,21 @@
+package edu.stevens.cs548.clinic.domain.research;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Drug
+ *
+ */
+@Entity
+
+public class Drug implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public Drug() {
+		super();
+	}
+   
+}

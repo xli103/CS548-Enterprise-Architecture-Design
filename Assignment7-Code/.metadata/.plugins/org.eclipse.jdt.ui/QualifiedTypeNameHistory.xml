@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.ws.rs.core.UriInfo"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.web.rest.data.dap.LinkType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.UriBuilder"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.representations.ProviderRepresentation"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.DrugTreatmentType"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.SurgeryType"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.RadiologyType"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.util.ProviderDtoFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.IProviderServiceLocal"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.ProviderDto"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.IProviderService.ProviderServiceExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.util.TreatmentDtoFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.TreatmentDto"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.representations.TreatmentRepresentation"/>
+</qualifiedTypeNameHistroy>

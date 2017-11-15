@@ -1,0 +1,65 @@
+package edu.stevens.cs548.service.ejb;
+
+import edu.stevens.cs548.clinic.service.ejb.PatientDTO;
+import java.util.Date;
+import javax.ejb.Local;
+import javax.ejb.LocalBean;
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class PatientService
+ */
+@Stateless
+@Local(IPatientServiceLocal.class)
+@Remote(IPatientRemote.class)
+@LocalBean
+public class PatientService implements IPatientServiceLocal, IPatientRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public PatientService() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+     * @see IPatientService#getPatientByNameDob(String, Date)
+     */
+    public PatientDTO[] getPatientByNameDob(String name, Date dob) {
+        // TODO Auto-generated method stub
+			return null;
+    }
+
+	/**
+     * @see IPatientService#createPatient(String, Date, long)
+     */
+    public long createPatient(String name, Date dob, long patientId) {
+        // TODO Auto-generated method stub
+			return 0;
+    }
+
+	/**
+     * @see IPatientService#getPatientByPatId(long)
+     */
+    public PatientDTO getPatientByPatId(long pid) {
+        // TODO Auto-generated method stub
+			return null;
+    }
+
+	/**
+     * @see IPatientService#deletePatient(String, long)
+     */
+    public void deletePatient(String name, long id) {
+        // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see IPatientService#getPatientByDbId(long)
+     */
+    public PatientDTO getPatientByDbId(long id) {
+        // TODO Auto-generated method stub
+			return null;
+    }
+
+}

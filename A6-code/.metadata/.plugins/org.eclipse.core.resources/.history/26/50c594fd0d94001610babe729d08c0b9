@@ -1,0 +1,26 @@
+package edu.stevens.cs548.service.ejb;
+
+import edu.stevens.cs548.clinic.service.dto.ProviderDTO;
+
+public interface IProviderService {
+	
+	public class ProviderServiceExn extends Exception{
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		public ProviderServiceExn(String m){
+			super(m);
+		}
+	}
+	
+	public void createProvider (String name, long npi, String specialization) throws ProviderServiceExn;
+	
+	public ProviderDTO getProvider(long npi) throws ProviderServiceExn;
+	
+	public ProviderDTO getProviderByNameSpec(String name, String spec) throws ProviderServiceExn;
+	
+	public void deleteProvider(String name, long npi) throws ProviderServiceExn;
+
+}

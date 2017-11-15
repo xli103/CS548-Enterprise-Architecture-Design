@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.wst.xquery.launching.XQDTLaunchConfigurationType">
+<stringAttribute key="mainScript" value="Sect-4-2-Samples.xq"/>
+<stringAttribute key="nature" value="org.eclipse.wst.xquery.core.nature"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/xquery-samples/Sect-4-2-Samples.xq"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.dltk.launching.debugConsole" value="false"/>
+<stringAttribute key="process_factory_id" value="org.eclipse.dltk.launching.scriptProcessFactory"/>
+<stringAttribute key="project" value="xquery-samples"/>
+</launchConfiguration>

@@ -1,0 +1,21 @@
+package edu.stevens.cs548.clinic.domain;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: RadiologyTreatment
+ *
+ */
+@Entity
+
+public class RadiologyTreatment implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public RadiologyTreatment() {
+		super();
+	}
+   
+}

@@ -1,0 +1,59 @@
+package edu.stevens.cs548.service.ejb;
+
+import java.util.Date;
+import java.util.List;
+
+import edu.stevens.cs548.clinic.service.dto.ProviderDTO;
+import edu.stevens.cs548.clinic.service.dto.TreatmentDto;
+import edu.stevens.cs548.service.ejb.IPatientService.PatientNotFoundExn;
+import edu.stevens.cs548.service.ejb.IPatientService.PatientServiceExn;
+import edu.stevens.cs548.service.ejb.IPatientService.TreatmentNotFoundExn;
+
+public interface IProviderService {
+	
+	public class ProviderServiceExn extends Exception{
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		public ProviderServiceExn(String m){
+			super(m);
+		}
+	}
+	
+	public class ProviderNotFoundExn extends ProviderServiceExn{
+		private static final long serialVersionUID = 1L;
+		public ProviderNotFoundExn(String m){
+			super(m);
+		}
+	}
+	
+	public class TreatmentNotFoundExn extends ProviderServiceExn{
+		private static final long serialVersionUID = 1L;
+		public TreatmentNotFoundExn(String m){
+			super(m);
+		}
+	}
+	
+	public long createProvider (String name, long npi, String specialization) throws ProviderServiceExn;
+	
+	public ProviderDTO getProvider(long npi) throws ProviderServiceExn;
+	
+	public ProviderDTO getProviderByNameSpec(String name, String spec) throws ProviderServiceExn;
+	
+	public void deleteProvider(String name, long npi) throws ProviderServiceExn;
+	
+	public long addDrugTreatment(long id, String diagnosis, String drug, float dosage) throws ProviderNotFoundExn;
+	
+	public long addRadiologyTreatment(long id, String diagnosis, List<Date> dates) throws ProviderNotFoundExn;
+	
+	public long addSurgeryTreatment(long id, String diagnosis, Date date) throws ProviderNotFoundExn;
+	
+	public TreatmentDto[] getTreatments(long id, long[] tids) throws ProviderNotFoundExn, TreatmentNotFoundExn, ProviderServiceExn;
+	
+	public void deleteTreatment(long id, long tid) throws ProviderNotFoundExn, TreatmentNotFoundExn, ProviderServiceExn;
+	
+	public String siteInfo();
+
+}

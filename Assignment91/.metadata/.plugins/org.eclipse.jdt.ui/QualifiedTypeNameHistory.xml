@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.jms.ConnectionFactory"/>
+<fullyQualifiedTypeName name="javax.jms.Topic"/>
+<fullyQualifiedTypeName name="javax.jms.Connection"/>
+<fullyQualifiedTypeName name="javax.jms.Session"/>
+<fullyQualifiedTypeName name="javax.jms.MessageProducer"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.billing.domain.BillingRecordDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.billing.BillingRecord"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Treatment"/>
+<fullyQualifiedTypeName name="javax.jms.ObjectMessage"/>
+<fullyQualifiedTypeName name="javax.jms.JMSException"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.research.DrugTreatmentRecord"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.DrugTreatmentType"/>
+</qualifiedTypeNameHistroy>

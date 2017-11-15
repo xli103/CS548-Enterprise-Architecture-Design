@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;createDDL.sql&apos; to &apos;scripts&apos;" description="Move &apos;createDDL.sql&apos; to &apos;scripts&apos;" destination="scripts" element1="createDDL.sql" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1476464122647" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;dropDDL.sql&apos; to &apos;scripts&apos;" description="Move &apos;dropDDL.sql&apos; to &apos;scripts&apos;" destination="scripts" element1="dropDDL.sql" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1476464124881" updateReferences="true"/>
+</session>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Drugtreatment"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderDAO.ProviderExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ProviderDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ProviderFactory"/>
+<fullyQualifiedTypeName name="javax.ejb.Startup"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientDAO.PatientExn"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.TreatmentDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientDAO"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+</qualifiedTypeNameHistroy>

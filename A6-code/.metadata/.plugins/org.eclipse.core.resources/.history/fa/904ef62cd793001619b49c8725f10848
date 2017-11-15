@@ -1,0 +1,68 @@
+package edu.stevens.cs548.clinic.service.web.soap;
+
+import java.util.Date;
+
+import javax.jws.WebService;
+
+import edu.stevens.cs548.clinic.service.ejb.PatientDTO;
+import edu.stevens.cs548.clinic.service.ejb.TreatmentDto;
+import edu.stevens.cs548.service.ejb.IPatientRemote;
+import edu.stevens.cs548.service.ejb.IPatientService.PatientServiceExn;
+
+@WebService(
+		endpointInterface="edu.stevens.cs548.clinic.service.web.soap.IPatientWebService")
+public class PatientWebService implements IPatientWebService {
+
+	IPatientRemote service;
+	@Override
+	public long createPatient(String name, Date dob, long patientId) throws PatientServiceExn {
+		// TODO Auto-generated method stub
+		return service.createPatient(name, dob, patientId);
+	}
+
+	@Override
+	public PatientDTO getPatientByDbId(long id) throws PatientServiceExn {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public PatientDTO getPatientByPatId(long pid) throws PatientServiceExn {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public PatientDTO[] getPatientByNameDob(String name, Date dob) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletePatient(String name, long id) throws PatientServiceExn {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public long addDrugTreatment(long id, String diagnosis, String drug, float dosage) throws PatientNotFoundExn {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public TreatmentDto[] getTreatments(long id, long[] tids)
+			throws PatientNotFoundExn, TreatmentNotFoundExn, PatientServiceExn {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteTreatment(long id, long tid) throws PatientNotFoundExn, TreatmentNotFoundExn, PatientServiceExn {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

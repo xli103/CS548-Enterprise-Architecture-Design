@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.PatientDTO"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="javax.ejb.Local"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Patient"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientDAO.PatientExn"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,134 @@
+package edu.stevens.cs548.service.ejb;
+
+import edu.stevens.cs548.clinic.domain.IProviderDAO;
+import edu.stevens.cs548.clinic.domain.Provider;
+import edu.stevens.cs548.clinic.domain.ProviderDAO;
+import edu.stevens.cs548.clinic.domain.ProviderFactory;
+import edu.stevens.cs548.clinic.domain.IProviderDAO.ProviderExn;
+import edu.stevens.cs548.clinic.service.dto.ProviderDTO;
+import edu.stevens.cs548.clinic.service.dto.TreatmentDto;
+import edu.stevens.cs548.service.ejb.IProviderService.ProviderServiceExn;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.ejb.Local;
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+/**
+ * Session Bean implementation class ProviderService1
+ */
+@Stateless
+public class ProviderService implements IProviderService {
+
+	private ProviderFactory providerFactory;
+	
+	private IProviderDAO providerDAO;
+    /**
+     * Default constructor. 
+     */
+	
+    public ProviderService() {
+        // TODO Auto-generated constructor stub
+    	providerFactory = new ProviderFactory();
+    }
+
+	@PersistenceContext(unitName="ClinicDomain")
+	private EntityManager em;
+	
+	@PostConstruct
+	private void initialize(){
+		providerDAO = new ProviderDAO(em);
+	}
+
+	private ProviderDTO providerToDTO(Provider provider){
+		return new ProviderDTO(provider);
+	}
+    
+	/**
+     * @see IProviderService#getTreatments(long, long[])
+     */
+    public TreatmentDto[] getTreatments(long id, long[] tids) {
+        // TODO Auto-generated method stub
+			return null;
+    }
+
+	/**
+     * @see IProviderService#getProvider(long)
+     */
+    public ProviderDTO getProvider(long npi) throws ProviderServiceExn {
+        // TODO Auto-generated method stub
+    	try{
+    		Provider provider = providerDAO.getProviderByNpi(npi);
+    		return new ProviderDTO(provider);
+    	}catch(ProviderExn e){
+    		throw new ProviderServiceExn(e.toString());
+    	}
+    }
+
+	/**
+     * @see IProviderService#addSurgeryTreatment(long, String, Date)
+     */
+    public long addSurgeryTreatment(long id, String diagnosis, Date date) {
+        // TODO Auto-generated method stub
+			return 0;
+    }
+
+	/**
+     * @see IProviderService#getProviderByNameSpec(String, String)
+     */
+    public ProviderDTO getProviderByNameSpec(String name, String spec) {
+        // TODO Auto-generated method stub
+			return null;
+    }
+
+	/**
+     * @see IProviderService#deleteProvider(String, long)
+     */
+    public void deleteProvider(String name, long npi) {
+        // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see IProviderService#addRadiologyTreatment(long, String, List<Date>)
+     */
+    public long addRadiologyTreatment(long id, String diagnosis, List<Date> dates) {
+        // TODO Auto-generated method stub
+			return 0;
+    }
+
+	/**
+     * @see IProviderService#deleteTreatment(long, long)
+     */
+    public void deleteTreatment(long id, long tid) {
+        // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see IProviderService#createProvider(String, long, String)
+     */
+    public void createProvider(String name, long npi, String specialization) {
+        // TODO Auto-generated method stub
+    }
+
+	/**
+     * @see IProviderService#addDrugTreatment(long, String, String, float)
+     */
+    public long addDrugTreatment(long id, String diagnosis, String drug, float dosage) {
+        // TODO Auto-generated method stub
+			return 0;
+    }
+
+	/**
+     * @see IProviderService#siteInfo()
+     */
+    public String siteInfo() {
+        // TODO Auto-generated method stub
+			return null;
+    }
+
+}

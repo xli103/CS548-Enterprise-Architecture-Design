@@ -1,0 +1,11 @@
+package edu.stevens.cs548.clinic.domain.research;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="Dali", date="2016-11-14T07:00:23.501+0800")
+@StaticMetamodel(Drug.class)
+public class Drug_ {
+	public static volatile SingularAttribute<Drug, Long> id;
+}

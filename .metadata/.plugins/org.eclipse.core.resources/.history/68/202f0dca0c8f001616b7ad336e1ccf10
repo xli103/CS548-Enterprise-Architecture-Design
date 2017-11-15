@@ -1,0 +1,39 @@
+package edu.stevens.cs548.clinic.domain;
+
+import java.util.Date;
+import java.util.List;
+
+public class TreatmentFactory implements ITreatmentFactory {
+
+	@Override
+	public Treatment createDrugTreatment(String diagnosis, String drug, float dosage) {
+		DrugTreatment treatment = new DrugTreatment();
+		treatment.setTreatmentType(TreatmentType.DRUG_TREATMENT.getTag());
+		treatment.setDiagnosis(diagnosis);
+		treatment.setDrug(drug);
+		treatment.setDosage(dosage);
+
+		return null;
+	}
+
+	@Override
+	public Treatment createRadiologyTreatment(String diagnosis, List<Date> dates) {
+		RadiologyTreatment t = new RadiologyTreatment();
+		t.setDiagnosis(diagnosis);
+		t.setDates(dates);
+		t.setTreatmentType(TreatmentType.RADIOLOGY.getTag());
+
+		return null;
+	}
+
+	@Override
+	public Treatment createSurgeryTreatment(String diagnosis, Date date) {
+		SurgeryTreatment t = new SurgeryTreatment();
+		t.setDate(date);
+		t.setDiagnosis(diagnosis);
+		t.setTreatmentType(TreatmentType.SURGERY.getTag());
+
+		return null;
+	}
+
+}

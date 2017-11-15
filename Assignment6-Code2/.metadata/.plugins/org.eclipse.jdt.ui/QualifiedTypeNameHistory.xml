@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.IPatientServiceLocal"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.RadiologyType"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.RadiologyTreatment"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.SurgeryType"/>
+<fullyQualifiedTypeName name="javax.ejb.Local"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.util.ProviderDtoFactory"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderDAO.ProviderExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Treatment"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.TreatmentFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ITreatmentFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.DrugTreatment"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.TreatmentDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ITreatmentDAO"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.IProviderServiceLocal"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ProviderDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.PatientDto"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.IPatientService.PatientServiceExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.ProviderDto"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.IProviderService.ProviderServiceExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.TreatmentDto"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ProviderFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Provider"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.DrugTreatmentType"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.util.PatientDtoFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Patient"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientDAO.PatientExn"/>
+</qualifiedTypeNameHistroy>

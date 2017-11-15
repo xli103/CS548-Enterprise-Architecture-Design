@@ -1,0 +1,21 @@
+package edu.stevens.cs548.clinic.billing;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: BillingRecord
+ *
+ */
+@Entity
+
+public class BillingRecord implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public BillingRecord() {
+		super();
+	}
+   
+}

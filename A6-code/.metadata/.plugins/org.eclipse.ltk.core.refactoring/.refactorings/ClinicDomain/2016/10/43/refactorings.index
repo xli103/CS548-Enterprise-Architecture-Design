@@ -1,0 +1,3 @@
+1476677445975	Move 'createDDL.sql' to 'ClinicDomain'
+1476677450429	Move 'dropDDL.sql' to 'ClinicDomain'
+1476808735805	Rename compilation unit 'Drugtreatment.java'

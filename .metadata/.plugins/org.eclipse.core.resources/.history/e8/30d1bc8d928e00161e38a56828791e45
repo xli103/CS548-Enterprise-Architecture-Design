@@ -1,0 +1,36 @@
+package edu.stevens.cs548.clinic.domain;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+public class ProviderDAO implements IProviderDAO {
+	
+	private EntityManager em;
+	private TreatmentDAO treatmentDAO;
+	
+	public ProviderDAO(EntityManager em) {
+		this.em = em;
+		this.treatmentDAO = new TreatmentDAO(em);
+	}
+
+	@Override
+	public long addProvider(Provider prov) throws ProviderExn {
+		long npi = prov.getNpi();
+		Query query = em.createNamedQuery("CountProviderByNpi").setParameter("pid", npi);
+		Long numExisting = (Long) query.getSingleResult();
+		return 0;
+	}
+
+	@Override
+	public Patient getProvider(long npi) throws ProviderExn {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletePatients() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

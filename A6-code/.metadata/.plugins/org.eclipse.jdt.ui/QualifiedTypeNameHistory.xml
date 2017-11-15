@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.ejb.PatientDTO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.PatientDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IPatientDAO.PatientExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Patient"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IPatientRemote"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IPatientService.PatientServiceExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IPatientService.PatientNotFoundExn"/>
+<fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.ProviderDTO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Treatment"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ITreatmentVisitor"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.DrugTreatmentType"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.RadiologyType"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.service.dto.SurgeryType"/>
+<fullyQualifiedTypeName name="javax.ejb.Local"/>
+<fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ProviderFactory"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.ProviderDAO"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.Provider"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.clinic.domain.IProviderDAO.ProviderExn"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IProviderServiceRemote"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IPatientService.TreatmentNotFoundExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IProviderService.ProviderServiceExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IProviderService.ProviderNotFoundExn"/>
+<fullyQualifiedTypeName name="edu.stevens.cs548.service.ejb.IProviderService.TreatmentNotFoundExn"/>
+</qualifiedTypeNameHistroy>

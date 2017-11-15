@@ -1,0 +1,50 @@
+package edu.stevens.cs548.service.ejb;
+
+import java.util.Date;
+
+import edu.stevens.cs548.clinic.service.dto.PatientDTO;
+import edu.stevens.cs548.clinic.service.dto.TreatmentDto;
+
+public interface IPatientService {
+	
+	public class PatientServiceExn extends Exception{
+		private static final long serialVersionUID = 1L;
+		public PatientServiceExn(String m){
+			super(m);
+		}
+	}
+	
+	public class PatientNotFoundExn extends PatientServiceExn{
+		private static final long serialVersionUID = 1L;
+		public PatientNotFoundExn(String m){
+			super(m);
+		}
+	}
+	
+	public class TreatmentNotFoundExn extends PatientServiceExn{
+		private static final long serialVersionUID = 1L;
+		public TreatmentNotFoundExn(String m){
+			super(m);
+		}
+	}
+	
+	public long createPatient(String name, Date dob, long patientId) throws PatientServiceExn;
+	
+	public PatientDTO getPatientByDbId (long id) throws PatientServiceExn;
+	
+	public PatientDTO getPatientByPatId (long pid) throws PatientServiceExn;
+	
+	public PatientDTO[] getPatientByNameDob (String name, Date dob);
+
+	//name to make sure that patient is the right one to delete
+	public void deletePatient (String name, long id) throws PatientServiceExn;
+	
+	public long addDrugTreatment(long id, String diagnosis, String drug, float dosage) throws PatientNotFoundExn;
+	
+	public TreatmentDto[] getTreatments(long id, long[] tids) throws PatientNotFoundExn, TreatmentNotFoundExn, PatientServiceExn;
+	
+	public void deleteTreatment(long id, long tid) throws PatientNotFoundExn, TreatmentNotFoundExn, PatientServiceExn;
+	
+	public String siteInfo();
+	
+}

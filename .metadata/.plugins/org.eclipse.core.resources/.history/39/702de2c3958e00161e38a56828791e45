@@ -1,0 +1,58 @@
+package edu.stevens.cs548.clinic.domain;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import edu.stevens.cs548.clinic.domain.IPatientDAO.PatientExn;
+
+public class ProviderDAO implements IProviderDAO {
+	
+	private EntityManager em;
+	private TreatmentDAO treatmentDAO;
+	
+	public ProviderDAO(EntityManager em) {
+		this.em = em;
+		this.treatmentDAO = new TreatmentDAO(em);
+	}
+
+	@Override
+	public long addProvider(Provider prov) throws ProviderExn {
+		long npi = prov.getNpi();
+		Query query = em.createNamedQuery("CountProviderByNpi").setParameter("pid", npi);
+		Long numExisting = (Long) query.getSingleResult();
+		if (numExisting < 1) {
+			// add to database (and sync with database to generate primary key)
+			// Don't forget to initialize the patient aggregate with a treatment DAO
+			em.persist(prov);
+			prov.setTreatmentDAO(this.treatmentDAO);
+			throw new IllegalStateException("Unimplemented");
+		} else {
+			throw new ProviderExn("Insertion: Provcider with npi (" + npi + ") already exists.");
+		}
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public Provider getProvider(long npi) throws ProviderExn {
+		Query query = em.createNamedQuery("SearchProviderByNpi").setParameter("id", npi);
+		List<Provider> prov = query.getResultList();
+		if(prov.size() > 1)
+			throw new ProviderExn("Duplicate provider records: provider npi =" + npi);
+		else if(prov.size() < 1)
+			throw new ProviderExn("Provider not found : provider npi =" + npi);
+		else {
+			Provider p = prov.get(0);
+			p.setTreatmentDAO(this.treatmentDAO);
+			return p;
+		}
+	}
+
+	@Override
+	public void deletePatients() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

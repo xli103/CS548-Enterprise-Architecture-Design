@@ -1,0 +1,37 @@
+package edu.stevens.cs548.clinic.domain.billing;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.*;
+
+import edu.stevens.cs548.clinic.domain.Treatment;
+
+/**
+ * Entity implementation class for Entity: TreatmentBilling
+ *
+ */
+@Entity
+
+public class BillingRecord implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public BillingRecord() {
+		super();
+	}
+	
+	@Id @GeneratedValue
+	private long id;
+	
+	private String description;
+	
+	@Temporal(TemporalType.DATE)
+	private Date date;
+	
+	private float amount;
+	@OneToOne @PrimaryKeyJoinColumn
+	private Treatment treatment;
+   
+}

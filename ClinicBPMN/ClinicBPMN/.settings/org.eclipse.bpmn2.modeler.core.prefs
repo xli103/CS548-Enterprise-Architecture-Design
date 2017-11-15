@@ -1,0 +1,4 @@
+check.project.nature=true
+do.core.validation=true
+eclipse.preferences.version=1
+target.runtime=org.eclipse.bpmn2.modeler.runtime.none

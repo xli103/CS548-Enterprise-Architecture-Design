@@ -1,0 +1,1454 @@
+!SESSION 2016-11-14 07:11:22.764 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\J2EE\workspace\CS548\Assignment91 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-11-14 07:11:26.444
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-14 07:11:26.444
+!MESSAGE A conflict occurred for ALT+SHIFT+X X:
+Binding(ALT+SHIFT+X X,
+	ParameterizedCommand(Command(org.eclipse.wst.xsl.debug.ui.launchshortcut.run,Run XSLT Transformation,
+		Create a configuration to debug an XSLT transformation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@255b84a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X X,
+	ParameterizedCommand(Command(org.eclipse.wst.xquery.debug.ui.launchShortcut.run,XQuery,
+		XQuery,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a286095,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-14 07:11:26.444
+!MESSAGE A conflict occurred for ALT+SHIFT+D X:
+Binding(ALT+SHIFT+D X,
+	ParameterizedCommand(Command(org.eclipse.wst.xsl.debug.ui.launchshortcut.debug,Debug XSLT Transformation,
+		Create a configuration to debug an XSLT transformation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26723525,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D X,
+	ParameterizedCommand(Command(org.eclipse.wst.xquery.debug.ui.launchShortcut.debug,XQuery,
+		XQuery,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11c40a65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-14 07:11:29.423
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xinghan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.504
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.543
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.547
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.549
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.552
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.554
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:01.976
+!MESSAGE The POM for edu.stevens.cs548:ClinicBillingServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:03.067
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:03.094
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:03.096
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:03.098
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:03.101
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:03.103
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:04.526
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:04.547
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:04.550
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:04.552
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:04.553
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:04.555
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:06.506
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:06.525
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:06.527
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:06.528
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:06.531
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:06.533
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.823
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.837
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.839
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.841
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.843
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.845
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.889
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.930
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.932
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.934
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.936
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:12:08.938
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:44.823
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:44.835
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:44.837
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:44.838
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:44.840
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:44.841
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.893
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.904
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.905
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.906
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.907
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.908
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:46.998
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:47.016
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:47.018
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:47.020
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:47.022
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 07:13:47.023
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-14 10:37:22.854
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-14 10:37:22.855
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:49:39.229
+!MESSAGE The POM for edu.stevens.cs548:ClinicDTOs:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:49:39.250
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:49:39.252
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:49:39.254
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:49:39.256
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:49:39.258
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:06.869
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:06.871
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:06.873
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:06.875
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:06.877
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.085
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.087
+!MESSAGE The POM for edu.stevens.cs548:ClinicRepresentations:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.089
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.091
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.093
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.750
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.756
+!MESSAGE The POM for com.sun.xml.bind:jaxb-xjc:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:07.760
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:08.952
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:08.955
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:08.957
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:08.959
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.184
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.187
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.188
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.189
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.640
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.643
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.644
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.645
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.677
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.679
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.680
+!MESSAGE The POM for edu.stevens.cs548:ClinicService:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.681
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.872
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.905
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:09.909
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:10.236
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:10.240
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:10.244
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.249
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.251
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.253
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.304
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.308
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.311
+!MESSAGE The POM for edu.stevens.cs548:ClinicServiceClient:jar:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.810
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:11.812
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:12.053
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:12.056
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:12.540
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:12.543
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:13.380
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:13.383
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:14.053
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:14.057
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:14.116
+!MESSAGE The POM for edu.stevens.cs548:ClinicSoapWebService:war:1.0.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:14.121
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:14.917
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:15.340
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:51:17.534
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:53:14.248
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:53:14.251
+!MESSAGE The POM for com.sun.xml.bind:jaxb-xjc:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:53:14.255
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:53:15.868
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 10:53:15.961
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2016-11-14 11:07:26.752
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.getJavaResourceType(AbstractJpaProject.java:899)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.getJavaResourceType(AbstractJpaProject.java:908)
+	at org.eclipse.jpt.jpa.core.internal.context.java.AbstractJavaIdTypeMapping.findResourceType(AbstractJavaIdTypeMapping.java:118)
+	at org.eclipse.jpt.jpa.core.internal.context.java.AbstractJavaIdTypeMapping.findSuperTypeMapping(AbstractJavaIdTypeMapping.java:113)
+	at org.eclipse.jpt.jpa.core.internal.context.java.AbstractJavaIdTypeMapping.findSuperTypeMapping(AbstractJavaIdTypeMapping.java:98)
+	at org.eclipse.jpt.jpa.core.internal.context.java.AbstractJavaIdTypeMapping.update(AbstractJavaIdTypeMapping.java:55)
+	at org.eclipse.jpt.jpa.core.internal.context.java.AbstractJavaEntity.update(AbstractJavaEntity.java:192)
+	at org.eclipse.jpt.jpa.eclipselink.core.internal.context.java.EclipseLinkJavaEntityImpl.update(EclipseLinkJavaEntityImpl.java:87)
+	at org.eclipse.jpt.jpa.core.internal.context.java.AbstractJavaPersistentType.update(AbstractJavaPersistentType.java:101)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericClassRef.updateJavaManagedType(GenericClassRef.java:194)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericClassRef.update(GenericClassRef.java:125)
+	at org.eclipse.jpt.jpa.core.internal.context.AbstractJpaContextModel.updateModels(AbstractJpaContextModel.java:79)
+	at org.eclipse.jpt.jpa.core.internal.context.persistence.AbstractPersistenceUnit.update(AbstractPersistenceUnit.java:290)
+	at org.eclipse.jpt.jpa.eclipselink.core.context.persistence.EclipseLinkPersistenceUnit.update(EclipseLinkPersistenceUnit.java:142)
+	at org.eclipse.jpt.jpa.core.internal.context.AbstractJpaContextModel.updateModels(AbstractJpaContextModel.java:79)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistence.update(GenericPersistence.java:75)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistenceXml.syncPersistence(GenericPersistenceXml.java:137)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistenceXml.updatePersistence(GenericPersistenceXml.java:97)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.persistence.GenericPersistenceXml.update(GenericPersistenceXml.java:93)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.syncPersistenceXml(GenericContextRoot.java:125)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.updatePersistenceXml(GenericContextRoot.java:159)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.update(GenericContextRoot.java:78)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.update(AbstractJpaProject.java:2012)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$UpdateJobCommand.execute(AbstractJpaProject.java:1996)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper.executeCommand(RepeatingJobCommandWrapper.java:211)
+	at org.eclipse.jpt.common.core.internal.utility.command.NotifyingRepeatingJobCommandWrapper.executeCommand(NotifyingRepeatingJobCommandWrapper.java:69)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper.execute_(RepeatingJobCommandWrapper.java:198)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper$StartJobCommand.execute(RepeatingJobCommandWrapper.java:172)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.execute_(InternalJpaProjectManager.java:1202)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$ClientJobCommandWrapper.execute(InternalJpaProjectManager.java:1182)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:15:27.597
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:15:28.069
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:15:29.488
+!MESSAGE The POM for edu.stevens.cs548:ClinicRestWebService:war:1.0.0 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:17:22.852
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:17:22.856
+!MESSAGE The POM for com.sun.xml.bind:jaxb-xjc:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:17:22.859
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:18:16.348
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:18:16.351
+!MESSAGE The POM for com.sun.xml.bind:jaxb-xjc:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 11:18:16.354
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-14 11:32:33.300
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-14 11:32:33.300
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-14 11:53:16.997
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-14 11:53:16.998
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 12:44:53.631
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 12:44:53.637
+!MESSAGE The POM for com.sun.xml.bind:jaxb-xjc:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-14 12:44:53.642
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+!SESSION 2016-11-15 05:11:42.565 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-11-15 05:11:50.270
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-15 05:11:50.270
+!MESSAGE A conflict occurred for ALT+SHIFT+X X:
+Binding(ALT+SHIFT+X X,
+	ParameterizedCommand(Command(org.eclipse.wst.xsl.debug.ui.launchshortcut.run,Run XSLT Transformation,
+		Create a configuration to debug an XSLT transformation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a233d33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X X,
+	ParameterizedCommand(Command(org.eclipse.wst.xquery.debug.ui.launchShortcut.run,XQuery,
+		XQuery,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7da0587a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-15 05:11:50.270
+!MESSAGE A conflict occurred for ALT+SHIFT+D X:
+Binding(ALT+SHIFT+D X,
+	ParameterizedCommand(Command(org.eclipse.wst.xsl.debug.ui.launchshortcut.debug,Debug XSLT Transformation,
+		Create a configuration to debug an XSLT transformation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78d52d4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D X,
+	ParameterizedCommand(Command(org.eclipse.wst.xquery.debug.ui.launchShortcut.debug,XQuery,
+		XQuery,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47a90d2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-15 05:12:01.713
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xinghan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-15 05:21:17.943
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-15 05:21:17.944
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:40.666
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.createLibraryInstallDelegate(JpaProjectPropertiesPage.java:427)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.updateContents(LibraryFacetPropertyPage.java:261)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createContents(LibraryFacetPropertyPage.java:192)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:241)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createControl(LibraryFacetPropertyPage.java:131)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1430)
+	at org.eclipse.jface.preference.PreferenceDialog$9.run(PreferenceDialog.java:1197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1189)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:608)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:656)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:653)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:878)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:875)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1729)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1077)
+	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:991)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:656)
+	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:343)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1095)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:83)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:234)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:152)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup.promptToConfigJpaProjectConnection(DatabaseSchemaWizardPage.java:398)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup$3.widgetSelected(DatabaseSchemaWizardPage.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1120)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1035)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.EclipseLinkDDLGeneratorUi.generate(EclipseLinkDDLGeneratorUi.java:59)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.wizards.EclipseLinkDDLGeneratorUi2_0.generate(EclipseLinkDDLGeneratorUi2_0.java:24)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.platform.EclipseLinkJpaPlatformUi2_0.generateDDL(EclipseLinkJpaPlatformUi2_0.java:31)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.generateDDL(GenerateDDLHandler.java:45)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.execute(GenerateDDLHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:40.667
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:40.683
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.<init>(LibraryInstallDelegate.java:138)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.createLibraryInstallDelegate(JpaProjectPropertiesPage.java:427)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.updateContents(LibraryFacetPropertyPage.java:261)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createContents(LibraryFacetPropertyPage.java:192)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:241)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createControl(LibraryFacetPropertyPage.java:131)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1430)
+	at org.eclipse.jface.preference.PreferenceDialog$9.run(PreferenceDialog.java:1197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1189)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:608)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:656)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:653)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:878)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:875)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1729)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1077)
+	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:991)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:656)
+	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:343)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1095)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:83)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:234)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:152)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup.promptToConfigJpaProjectConnection(DatabaseSchemaWizardPage.java:398)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup$3.widgetSelected(DatabaseSchemaWizardPage.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1120)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1035)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.EclipseLinkDDLGeneratorUi.generate(EclipseLinkDDLGeneratorUi.java:59)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.wizards.EclipseLinkDDLGeneratorUi2_0.generate(EclipseLinkDDLGeneratorUi2_0.java:24)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.platform.EclipseLinkJpaPlatformUi2_0.generateDDL(EclipseLinkJpaPlatformUi2_0.java:31)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.generateDDL(GenerateDDLHandler.java:45)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.execute(GenerateDDLHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:40.684
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:40.897
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setEnablementContextVariable(LibraryInstallDelegate.java:331)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.adjustLibraryProviders(JpaProjectPropertiesPage.java:486)
+	at org.eclipse.jpt.common.ui.internal.properties.JptProjectPropertiesPage.createPageContents(JptProjectPropertiesPage.java:141)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.updateContents(LibraryFacetPropertyPage.java:266)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createContents(LibraryFacetPropertyPage.java:192)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:241)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createControl(LibraryFacetPropertyPage.java:131)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1430)
+	at org.eclipse.jface.preference.PreferenceDialog$9.run(PreferenceDialog.java:1197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1189)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:608)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:656)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:653)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:878)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:875)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1729)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1077)
+	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:991)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:656)
+	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:343)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1095)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:83)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:234)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:152)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup.promptToConfigJpaProjectConnection(DatabaseSchemaWizardPage.java:398)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup$3.widgetSelected(DatabaseSchemaWizardPage.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1120)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1035)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.EclipseLinkDDLGeneratorUi.generate(EclipseLinkDDLGeneratorUi.java:59)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.wizards.EclipseLinkDDLGeneratorUi2_0.generate(EclipseLinkDDLGeneratorUi2_0.java:24)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.platform.EclipseLinkJpaPlatformUi2_0.generateDDL(EclipseLinkJpaPlatformUi2_0.java:31)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.generateDDL(GenerateDDLHandler.java:45)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.execute(GenerateDDLHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:40.898
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:40.899
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setEnablementContextVariable(LibraryInstallDelegate.java:331)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.adjustLibraryProviders(JpaProjectPropertiesPage.java:486)
+	at org.eclipse.jpt.common.ui.internal.properties.JptProjectPropertiesPage.createPageContents(JptProjectPropertiesPage.java:141)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.updateContents(LibraryFacetPropertyPage.java:266)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createContents(LibraryFacetPropertyPage.java:192)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:241)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createControl(LibraryFacetPropertyPage.java:131)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1430)
+	at org.eclipse.jface.preference.PreferenceDialog$9.run(PreferenceDialog.java:1197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1189)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:608)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:656)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:653)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:878)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:875)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1729)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1077)
+	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:991)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:656)
+	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:343)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1095)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:83)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:234)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:152)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup.promptToConfigJpaProjectConnection(DatabaseSchemaWizardPage.java:398)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup$3.widgetSelected(DatabaseSchemaWizardPage.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1120)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1035)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.EclipseLinkDDLGeneratorUi.generate(EclipseLinkDDLGeneratorUi.java:59)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.wizards.EclipseLinkDDLGeneratorUi2_0.generate(EclipseLinkDDLGeneratorUi2_0.java:24)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.platform.EclipseLinkJpaPlatformUi2_0.generateDDL(EclipseLinkJpaPlatformUi2_0.java:31)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.generateDDL(GenerateDDLHandler.java:45)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.execute(GenerateDDLHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:40.900
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:40.902
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setEnablementContextVariable(LibraryInstallDelegate.java:331)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.adjustLibraryProviders(JpaProjectPropertiesPage.java:487)
+	at org.eclipse.jpt.common.ui.internal.properties.JptProjectPropertiesPage$LibraryProviderListener.propertyChanged(JptProjectPropertiesPage.java:111)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.PropertiesHost.notifyListeners(PropertiesHost.java:90)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:436)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setEnablementContextVariable(LibraryInstallDelegate.java:331)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.adjustLibraryProviders(JpaProjectPropertiesPage.java:486)
+	at org.eclipse.jpt.common.ui.internal.properties.JptProjectPropertiesPage.createPageContents(JptProjectPropertiesPage.java:141)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.updateContents(LibraryFacetPropertyPage.java:266)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createContents(LibraryFacetPropertyPage.java:192)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:241)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createControl(LibraryFacetPropertyPage.java:131)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1430)
+	at org.eclipse.jface.preference.PreferenceDialog$9.run(PreferenceDialog.java:1197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1189)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:608)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:656)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:653)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:878)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:875)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1729)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1077)
+	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:991)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:656)
+	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:343)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1095)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:83)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:234)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:152)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup.promptToConfigJpaProjectConnection(DatabaseSchemaWizardPage.java:398)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup$3.widgetSelected(DatabaseSchemaWizardPage.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1120)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1035)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.EclipseLinkDDLGeneratorUi.generate(EclipseLinkDDLGeneratorUi.java:59)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.wizards.EclipseLinkDDLGeneratorUi2_0.generate(EclipseLinkDDLGeneratorUi2_0.java:24)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.platform.EclipseLinkJpaPlatformUi2_0.generateDDL(EclipseLinkJpaPlatformUi2_0.java:31)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.generateDDL(GenerateDDLHandler.java:45)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.execute(GenerateDDLHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:40.902
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:40.904
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setEnablementContextVariable(LibraryInstallDelegate.java:331)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.adjustLibraryProviders(JpaProjectPropertiesPage.java:487)
+	at org.eclipse.jpt.common.ui.internal.properties.JptProjectPropertiesPage$LibraryProviderListener.propertyChanged(JptProjectPropertiesPage.java:111)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.PropertiesHost.notifyListeners(PropertiesHost.java:90)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:436)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.setEnablementContextVariable(LibraryInstallDelegate.java:331)
+	at org.eclipse.jpt.jpa.ui.internal.properties.JpaProjectPropertiesPage.adjustLibraryProviders(JpaProjectPropertiesPage.java:486)
+	at org.eclipse.jpt.common.ui.internal.properties.JptProjectPropertiesPage.createPageContents(JptProjectPropertiesPage.java:141)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.updateContents(LibraryFacetPropertyPage.java:266)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createContents(LibraryFacetPropertyPage.java:192)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:241)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.createControl(LibraryFacetPropertyPage.java:131)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1430)
+	at org.eclipse.jface.preference.PreferenceDialog$9.run(PreferenceDialog.java:1197)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1189)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:608)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:656)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:653)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:878)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:875)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1729)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1077)
+	at org.eclipse.jface.preference.PreferenceDialog.selectSavedItem(PreferenceDialog.java:991)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.selectSavedItem(FilteredPreferenceDialog.java:656)
+	at org.eclipse.jface.preference.PreferenceDialog.lambda$0(PreferenceDialog.java:346)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog.createContents(PreferenceDialog.java:343)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1095)
+	at org.eclipse.ui.internal.dialogs.PropertyDialog.createDialogOn(PropertyDialog.java:83)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:234)
+	at org.eclipse.ui.dialogs.PreferencesUtil.createPropertyDialogOn(PreferencesUtil.java:152)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup.promptToConfigJpaProjectConnection(DatabaseSchemaWizardPage.java:398)
+	at org.eclipse.jpt.jpa.ui.internal.wizards.DatabaseSchemaWizardPage$DatabaseGroup$3.widgetSelected(DatabaseSchemaWizardPage.java:383)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1120)
+	at org.eclipse.swt.widgets.Link.WM_LBUTTONUP(Link.java:1035)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.EclipseLinkDDLGeneratorUi.generate(EclipseLinkDDLGeneratorUi.java:59)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.ddlgen.wizards.EclipseLinkDDLGeneratorUi2_0.generate(EclipseLinkDDLGeneratorUi2_0.java:24)
+	at org.eclipse.jpt.jpa.eclipselink.ui.internal.platform.EclipseLinkJpaPlatformUi2_0.generateDDL(EclipseLinkJpaPlatformUi2_0.java:31)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.generateDDL(GenerateDDLHandler.java:45)
+	at org.eclipse.jpt.jpa.ui.internal.handlers.GenerateDDLHandler.execute(GenerateDDLHandler.java:37)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:40.905
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:50.989
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.performOkInternal(LibraryFacetPropertyPage.java:449)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.access$1(LibraryFacetPropertyPage.java:441)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$5.run(LibraryFacetPropertyPage.java:401)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$6.run(LibraryFacetPropertyPage.java:415)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:50.989
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:50.991
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.performOkInternal(LibraryFacetPropertyPage.java:449)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.access$1(LibraryFacetPropertyPage.java:441)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$5.run(LibraryFacetPropertyPage.java:401)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$6.run(LibraryFacetPropertyPage.java:415)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:50.991
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:58.597
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.performOkInternal(LibraryFacetPropertyPage.java:449)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.access$1(LibraryFacetPropertyPage.java:441)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$5.run(LibraryFacetPropertyPage.java:401)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$6.run(LibraryFacetPropertyPage.java:415)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:58.597
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 -1 2016-11-15 05:51:58.597
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:174)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.jst.common.project.facet.core.libprov.internal.LibraryProvider.isEnabledFor(LibraryProvider.java:287)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.refresh(LibraryInstallDelegate.java:364)
+	at org.eclipse.jst.common.project.facet.core.libprov.LibraryInstallDelegate.reset(LibraryInstallDelegate.java:450)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.performOkInternal(LibraryFacetPropertyPage.java:449)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage.access$1(LibraryFacetPropertyPage.java:441)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$5.run(LibraryFacetPropertyPage.java:401)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jst.common.project.facet.ui.libprov.LibraryFacetPropertyPage$6.run(LibraryFacetPropertyPage.java:415)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-11-15 05:51:58.598
+!MESSAGE No property tester contributes a property oracle.eclipse.tools.common.wtp.core.fproj.containsRuntimeComponentType to type class org.eclipse.wst.common.project.facet.core.runtime.internal.BridgedRuntime
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-15 06:02:57.934
+!MESSAGE Launch configuration Dali EclipseLink Table Generation at file:/D:/J2EE/workspace/CS548/Assignment91/.metadata/.plugins/org.eclipse.debug.core/.launches/Dali%20EclipseLink%20Table%20Generation.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration Dali EclipseLink Table Generation at file:/D:/J2EE/workspace/CS548/Assignment91/.metadata/.plugins/org.eclipse.debug.core/.launches/Dali%20EclipseLink%20Table%20Generation.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:925)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1395)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:470)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:640)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:130)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:122)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2016-11-15 06:02:57.934
+!MESSAGE Launch configuration Dali EclipseLink Table Generation at file:/D:/J2EE/workspace/CS548/Assignment91/.metadata/.plugins/org.eclipse.debug.core/.launches/Dali%20EclipseLink%20Table%20Generation.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 06:07:46.846
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 06:07:46.852
+!MESSAGE The POM for com.sun.xml.bind:jaxb-xjc:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-15 06:07:46.858
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-15 10:42:59.927
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-11-15 10:42:59.927
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2016-11-15 11:12:29.856 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:\J2EE\workspace\CS548\Assignment91 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2016-11-15 11:12:33.835
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-15 11:12:33.835
+!MESSAGE A conflict occurred for ALT+SHIFT+X X:
+Binding(ALT+SHIFT+X X,
+	ParameterizedCommand(Command(org.eclipse.wst.xsl.debug.ui.launchshortcut.run,Run XSLT Transformation,
+		Create a configuration to debug an XSLT transformation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25134e01,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X X,
+	ParameterizedCommand(Command(org.eclipse.wst.xquery.debug.ui.launchShortcut.run,XQuery,
+		XQuery,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12d28106,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-11-15 11:12:33.835
+!MESSAGE A conflict occurred for ALT+SHIFT+D X:
+Binding(ALT+SHIFT+D X,
+	ParameterizedCommand(Command(org.eclipse.wst.xsl.debug.ui.launchshortcut.debug,Debug XSLT Transformation,
+		Create a configuration to debug an XSLT transformation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a3c1b56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D X,
+	ParameterizedCommand(Command(org.eclipse.wst.xquery.debug.ui.launchShortcut.debug,XQuery,
+		XQuery,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b8ce72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-15 11:12:40.207
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Xinghan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

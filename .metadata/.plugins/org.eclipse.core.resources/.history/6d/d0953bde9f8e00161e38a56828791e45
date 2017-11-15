@@ -1,0 +1,14 @@
+package edu.stevens.cs548.clinic.domain;
+
+import java.util.Date;
+import java.util.List;
+
+public interface ITreatmentFactory {
+	
+	public Treatment createDrugTreatment (long id, String diagnosis, String drug, float dosage);
+	
+	public Treatment createRadiologyTreatment (long id, String diagnosis, List<Date> dates);
+	
+	public Treatment createSurgeryTreatment (long id, String diagnosis, Date dates);
+
+}

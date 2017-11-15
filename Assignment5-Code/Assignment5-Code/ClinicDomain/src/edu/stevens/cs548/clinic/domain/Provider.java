@@ -1,0 +1,120 @@
+package edu.stevens.cs548.clinic.domain;
+
+import static javax.persistence.CascadeType.REMOVE;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.*;
+
+import edu.stevens.cs548.clinic.domain.ITreatmentDAO.TreatmentExn;
+
+/**
+ * Entity implementation class for Entity: Provider
+ *
+ */
+
+@Entity
+
+@NamedQueries({
+	@NamedQuery(
+		name="SearchProviderByNpi",
+		query="select p from Provider p where p.npi = :pid"),
+	@NamedQuery(
+			name="CountProviderByNpi",
+			query="select count(p) from Provider p where p.npi = :pid"),
+	@NamedQuery(
+		name = "RemoveAllProviders", 
+		query = "delete from Provider p")
+})
+
+
+
+@Table(name = "PROVIDER")
+
+public class Provider implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	
+	@PersistenceContext
+	private EntityManager em;
+	@Id
+	@GeneratedValue
+	private long npi;
+	private String name;
+	private String specialization;
+	
+	public long getNpi() {
+		return npi;
+	}
+
+	public void setNpi(long npi) {
+		this.npi = npi;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSpecialization() {
+		return specialization;
+	}
+
+	public void setSpecialization(String specialization) {
+		this.specialization = specialization;
+	}
+	
+	@OneToMany(mappedBy = "provider", cascade = REMOVE)
+	@OrderBy
+	private List<Treatment> treatments;
+	
+	public List<Treatment> getTreatments() {
+		return treatments;
+	}
+
+	public void setTreatments(List<Treatment> treatments) {
+		this.treatments = treatments;
+	}
+	
+	@Transient
+	private ITreatmentDAO treatmentDAO;
+	
+	public void setTreatmentDAO(ITreatmentDAO tdao){
+		this.treatmentDAO = tdao;
+	}
+	
+	public void addTreatment(Treatment t){
+		this.treatmentDAO.addTreatment(t);
+		this.getTreatments().add(t);
+		if(t.getProvider() != this)
+			t.setProvider(this);
+	}
+	
+	public void getTreatmentIds(List<Long> treatmentIds) {
+		for (Treatment t : this.getTreatments()) {
+			treatmentIds.add(t.getId());
+		}
+	}
+	
+	public <T> T exportTreatment(long tid, ITreatmentExporter<T> visitor) throws TreatmentExn {
+		// Export a treatment without violated Aggregate pattern
+		// Check that the exported treatment is a treatment for this patient.
+		Treatment t = treatmentDAO.getTreatment(tid);
+		if (t.getProvider() != this) {
+			throw new TreatmentExn("Inappropriate treatment access: provider = " + npi + ", treatment = " + tid);
+		}
+		return t.export(visitor);
+	}
+
+	public Provider() {
+		super();
+		treatments = new ArrayList<Treatment>();
+	}
+   
+}

@@ -1,0 +1,10 @@
+dialog.BoundaryEvent.tab=1
+dialog.BoundaryEvent.x=224
+dialog.BoundaryEvent.y=224
+dialog.EndEvent.x=192
+dialog.EndEvent.y=192
+dialog.StartEvent.x=332
+dialog.StartEvent.y=241
+do.core.validation=true
+eclipse.preferences.version=1
+section.StartEvent.Documentation..expanded=true

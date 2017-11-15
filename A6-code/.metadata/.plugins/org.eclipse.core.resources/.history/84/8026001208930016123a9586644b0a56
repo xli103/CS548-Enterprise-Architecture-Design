@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/clinic/schemas/Treatment" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/clinic/schemas/Treatment">
+
+
+
+
+
+
+    <complexType name="TreatmentType">
+    	<sequence>
+    		<choice>
+    			<element name="NewElement" type="string"></element>
+    			<element name="NewElement1" type="string"></element>
+    			<element name="NewElement2" type="string"></element>
+    		</choice>
+    	</sequence>
+    </complexType>
+
+    <complexType name="RadiologyType"></complexType>
+
+    <complexType name="SurgeryType"></complexType>
+
+    <complexType name="DrugTreatmentType">
+    	<sequence>
+    		<element name="name" type="string"></element>
+    		<element name="dosage" type="float"></element>
+    	</sequence>
+    </complexType>
+</schema>
+

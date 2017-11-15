@@ -1,0 +1,9 @@
+package edu.stevens.cs548.clinic.billing;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="Dali", date="2016-11-14T11:05:35.576+0800")
+@StaticMetamodel(BillingRecord.class)
+public class BillingRecord_ {
+}

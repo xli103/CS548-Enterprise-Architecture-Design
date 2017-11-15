@@ -1,0 +1,9 @@
+dialog.BoundaryEvent.tab=1
+dialog.BoundaryEvent.x=64
+dialog.BoundaryEvent.y=64
+dialog.IntermediateThrowEvent.tab=1
+dialog.IntermediateThrowEvent.x=224
+dialog.IntermediateThrowEvent.y=224
+do.core.validation=true
+eclipse.preferences.version=1
+list.DataOutput.expanded=true

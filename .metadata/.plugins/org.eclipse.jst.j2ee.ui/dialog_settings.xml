@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<item value="ClinicApp" key="LASTEARNAME_"/>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="D:\J2EE\workspace\CS548\ClinicApp.ear"/>
+		<item value="D:\J2EE\workspace\ClinicApp.ear"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="GlassFish 4.0"/>
+		<item value="NULL_RUNTIME"/>
+		<item value="GlassFish 4.1"/>
+	</list>
+</section>

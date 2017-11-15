@@ -1,0 +1,321 @@
+package edu.stevens.cs548.clinic.service.ejb;
+
+import java.util.Date;
+import java.util.List;
+import java.util.logging.Logger;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.inject.Inject;
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+import javax.jms.MessageProducer;
+import javax.jms.ObjectMessage;
+import javax.jms.Session;
+import javax.jms.Topic;
+import javax.persistence.EntityManager;
+
+import edu.stevens.cs548.clinic.domain.IPatientDAO;
+import edu.stevens.cs548.clinic.domain.IPatientDAO.PatientExn;
+import edu.stevens.cs548.clinic.domain.IProviderDAO;
+import edu.stevens.cs548.clinic.domain.IProviderDAO.ProviderExn;
+import edu.stevens.cs548.clinic.domain.ITreatmentDAO.TreatmentExn;
+import edu.stevens.cs548.clinic.domain.IProviderFactory;
+import edu.stevens.cs548.clinic.domain.ITreatmentExporter;
+import edu.stevens.cs548.clinic.domain.ITreatmentFactory;
+import edu.stevens.cs548.clinic.domain.Patient;
+import edu.stevens.cs548.clinic.domain.PatientDAO;
+import edu.stevens.cs548.clinic.domain.Provider;
+import edu.stevens.cs548.clinic.domain.ProviderDAO;
+import edu.stevens.cs548.clinic.domain.ProviderFactory;
+import edu.stevens.cs548.clinic.domain.Specialization;
+import edu.stevens.cs548.clinic.domain.Treatment;
+import edu.stevens.cs548.clinic.domain.TreatmentFactory;
+import edu.stevens.cs548.clinic.service.dto.DrugTreatmentType;
+import edu.stevens.cs548.clinic.service.dto.ObjectFactory;
+import edu.stevens.cs548.clinic.service.dto.ProviderDto;
+import edu.stevens.cs548.clinic.service.dto.RadiologyType;
+import edu.stevens.cs548.clinic.service.dto.SurgeryType;
+import edu.stevens.cs548.clinic.service.dto.TreatmentDto;
+import edu.stevens.cs548.clinic.service.dto.util.ProviderDtoFactory;
+import edu.stevens.cs548.clinic.service.ejb.IPatientService.PatientNotFoundExn;
+import edu.stevens.cs548.clinic.service.ejb.IPatientService.PatientServiceExn;
+import edu.stevens.cs548.clinic.service.ejb.IPatientService.TreatmentNotFoundExn;
+import edu.stevens.cs548.clinic.service.ejb.PatientService.TreatmentExporter;
+
+/**
+ * Session Bean implementation class ProviderService
+ */
+@Stateless(name = "ProviderServiceBean")
+public class ProviderService implements IProviderServiceLocal, IProviderServiceRemote {
+
+	
+	@SuppressWarnings("unused")
+	private Logger logger = Logger.getLogger(ProviderService.class.getCanonicalName());
+
+	private IProviderFactory providerFactory;
+
+	private ProviderDtoFactory providerDtoFactory;
+
+	private IProviderDAO providerDAO;
+	
+	private IPatientDAO patientDAO;
+	
+	private ITreatmentFactory treatmentFactory;
+
+	
+    /**
+     * Default constructor. 
+     */
+    public ProviderService() {
+        providerFactory = new ProviderFactory();
+        providerDtoFactory = new ProviderDtoFactory();
+        treatmentFactory = new TreatmentFactory();
+    }
+    
+    @Inject
+	@ClinicDomain
+	private EntityManager em;
+    
+    @PostConstruct
+   	private void initialization() {
+   		providerDAO = new ProviderDAO(em);
+   		patientDAO = new PatientDAO(em);
+   	}
+    
+	/**
+     * @see IProviderService#addProvider(ProviderDto)
+     */
+    @Override
+    public long addProvider(ProviderDto dto) throws ProviderServiceExn{
+    		try {
+				Provider provider = providerFactory.createProvider(dto.getProviderId(), dto.getName(), Specialization.valueOf(dto.getSpecialization()));
+				providerDAO.addProvider(provider);
+				return provider.getId();
+			} catch (ProviderExn e) {
+				throw new ProviderServiceExn(e.toString());
+			}
+    }
+    
+	/**
+     * @see IProviderService#getProviderByPatId(long)
+     */
+    @Override
+    public ProviderDto getProviderByProId(long pid) throws ProviderServiceExn{
+        	try{
+        		Provider provider = providerDAO.getProviderByProviderId(pid);
+        		return providerDtoFactory.createProviderDto(provider);
+        	} catch(ProviderExn e){
+        		throw new ProviderServiceExn(e.toString());
+        	}
+    }
+
+    @Resource(mappedName="jms/clinic/TreatmentPool")
+    private ConnectionFactory treatmentConnFactory;
+    
+    @Resource(mappedName="jms/clinic/Treatment")
+    private Topic treatmentTopic;
+    
+    Logger logger2 = Logger.getLogger("edu.stevens.cs548.clinic.service.ejb");
+    
+	/**
+     * @see IProviderService#addDrugTreatment(TreatmentDto)
+     */
+    @Override
+    public long addDrugTreatment(TreatmentDto t) throws ProviderServiceExn{
+    		long res = 0;
+    		Connection treatmentConn = null;
+        	try {
+				Provider provider = providerDAO.getProviderByProviderId(t.getProvider());
+				String diagnosis = t.getDiagnosis();
+				String drugname = t.getDrugTreatmentType().getName();
+				float dosage = t.getDrugTreatmentType().getDosage();
+				Treatment drugTreatment = treatmentFactory.createDrugTreatment(drugname, dosage);
+				drugTreatment.setPatient(patientDAO.getPatientByPatientId(t.getPatient()));
+				provider.addTreatment(drugTreatment);
+				res = drugTreatment.getId();	
+				//assignment 9 code below
+				treatmentConn = treatmentConnFactory.createConnection();
+				Session session = treatmentConn.createSession(true, Session.AUTO_ACKNOWLEDGE);
+				MessageProducer producer = session.createProducer(treatmentTopic);
+				ObjectMessage message = session.createObjectMessage();
+				message.setObject(t);
+				message.setStringProperty("treatmentType", "Drug");
+				producer.send(message);
+						
+				
+			} catch (ProviderExn e) {
+				throw new ProviderServiceExn(e.toString());
+			} catch (PatientExn f) {
+				throw new ProviderServiceExn(f.toString());
+			} catch (JMSException e){
+				logger2.severe("JMS Error: " + e);
+			} finally{
+				try{
+					if(treatmentConn != null)
+					treatmentConn.close();
+			} catch (JMSException e){
+				logger.severe("Error closing JMS connection: " + e);
+			}
+			}
+        	return res;
+    }
+	/**
+     * @see IProviderService#addSurgery(TreatmentDto)
+     */
+    @Override
+    public long addSurgery(TreatmentDto t) throws ProviderServiceExn{
+    			long res = 0;
+    			Connection treatmentConn = null;
+    		try{
+    			Provider provider = providerDAO.getProviderByProviderId(t.getProvider());
+    			String diagnosis = t.getDiagnosis();
+    			Date date = t.getSurgery().getDate();
+    			Treatment surgery = treatmentFactory.createSurgery( date);
+    			surgery.setPatient(patientDAO.getPatientByPatientId(t.getPatient()));
+    			res = surgery.getId();
+    			//assignment 9 code below
+				treatmentConn = treatmentConnFactory.createConnection();
+				Session session = treatmentConn.createSession(true, Session.AUTO_ACKNOWLEDGE);
+				MessageProducer producer = session.createProducer(treatmentTopic);
+				ObjectMessage message = session.createObjectMessage();
+				message.setObject(t);
+				message.setStringProperty("treatmentType", "Surgery");
+				producer.send(message);
+    			res = provider.addTreatment(surgery);
+    		} catch(ProviderExn e){
+    			throw new ProviderServiceExn(e.toString());
+    		} catch(PatientExn f){
+    			throw new ProviderServiceExn(f.toString());
+    		} catch (JMSException e){
+				logger2.severe("JMS Error: " + e);
+			} finally{
+				try{
+					if(treatmentConn != null)
+					treatmentConn.close();
+			} catch (JMSException e){
+				logger.severe("Error closing JMS connection: " + e);
+			}
+			}
+    		return res;
+    }
+    /**
+     * @see IProviderService#addRadiology(TreatmentDto)
+     */
+    @Override
+    public long addRadiology(TreatmentDto t) throws ProviderServiceExn{
+    			long res = 0;
+    			Connection treatmentConn = null;
+    		try{
+    			Provider provider = providerDAO.getProviderByProviderId(t.getProvider());
+    			String diagnosis = t.getDiagnosis();
+    			List<Date> list = t.getRadiology().getDate();
+    			Treatment radiology = treatmentFactory.createRadiology( list);
+    			radiology.setPatient(patientDAO.getPatientByPatientId(t.getPatient()));
+    			res = provider.addTreatment(radiology);
+    			//assignment 9 code below
+				treatmentConn = treatmentConnFactory.createConnection();
+				Session session = treatmentConn.createSession(true, Session.AUTO_ACKNOWLEDGE);
+				MessageProducer producer = session.createProducer(treatmentTopic);
+				ObjectMessage message = session.createObjectMessage();
+				message.setObject(t);
+				message.setStringProperty("treatmentType", "Radiology");
+				producer.send(message);		
+    		} catch(ProviderExn e){
+    			throw new ProviderServiceExn(e.toString());
+    		} catch (PatientExn f){
+    			throw new ProviderServiceExn(f.toString());
+    		} catch (JMSException e){
+				logger2.severe("JMS Error: " + e);
+			} finally{
+				try{
+					if(treatmentConn != null)
+					treatmentConn.close();
+			} catch (JMSException e){
+				logger.severe("Error closing JMS connection: " + e);
+			}
+			}
+    		return res;
+    }
+
+	/**
+     * @see IProviderService#getProivder(long)
+     */
+    @Override
+    public ProviderDto getProvider(long id) throws ProviderServiceExn{
+           	try{
+           		Provider provider = providerDAO.getProvider(id);
+           		return providerDtoFactory.createProviderDto(provider);
+           	} catch (ProviderExn e){
+           		throw new ProviderServiceExn(e.toString());
+           	}
+    }
+
+	
+
+    public class TreatmentExporter implements ITreatmentExporter<TreatmentDto> {
+
+		private ObjectFactory factory = new ObjectFactory();
+
+		@Override
+		public TreatmentDto exportDrugTreatment(long tid, Provider p, String diagnosis, String drug, float dosage) {
+			TreatmentDto dto = factory.createTreatmentDto();
+			dto.setDiagnosis(diagnosis);
+			DrugTreatmentType drugInfo = factory.createDrugTreatmentType();
+			drugInfo.setDosage(dosage);
+			drugInfo.setName(drug);
+			dto.setDrugTreatmentType(drugInfo);
+			return dto;
+		}
+
+		@Override
+		public TreatmentDto exportRadiology(long tid, Provider p, String diagnosis, List<Date> dates) {
+			// TODO Auto-generated method stub
+			TreatmentDto dto = factory.createTreatmentDto();
+			dto.setDiagnosis(diagnosis);
+			RadiologyType radiology = factory.createRadiologyType();
+			radiology.getDate().addAll(dates);
+			dto.setRadiology(radiology);
+			return dto;
+		}
+
+		@Override
+		public TreatmentDto exportSurgery(long tid, Provider p, String diagnosis, Date date) {
+			// TODO Auto-generated method stub
+			TreatmentDto dto = factory.createTreatmentDto();
+			dto.setDiagnosis(diagnosis);
+			SurgeryType surgery = factory.createSurgeryType();
+			surgery.setDate(date);
+			dto.setSurgery(surgery);
+			return dto;
+		}
+
+	}
+    
+    @Override
+	public TreatmentDto getTreatment(long id, long tid)
+			throws ProviderNotFoundExn, TreatmentNotFoundExn, ProviderServiceExn {
+		// Export treatment DTO from patient aggregate
+		try {
+			Provider provider = providerDAO.getProvider(id);
+			TreatmentExporter visitor = new TreatmentExporter();
+			return provider.exportTreatment(tid, visitor);
+		} catch (ProviderExn e) {
+			throw new ProviderNotFoundExn(e.toString());
+		} catch (TreatmentExn e) {
+			throw new ProviderServiceExn(e.toString());
+		}
+	}
+    
+    @Resource(name = "SiteInfo")
+	private String siteInformation;
+	/**
+     * @see IProviderService#siteInfo()
+     */
+    public String siteInfo() {
+			return siteInformation;
+    }
+
+}

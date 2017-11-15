@@ -1,0 +1,87 @@
+package edu.stevens.cs548.clinic.domain;
+
+import static javax.persistence.CascadeType.REMOVE;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Provider
+ *
+ */
+@Entity
+
+@Table(name = "PROVIDER")
+
+public class Provider implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+	
+	@PersistenceContext
+	private EntityManager em;
+	@Id
+	@GeneratedValue
+	private long npi;
+	private String name;
+	private String specialization;
+	
+	public long getNpi() {
+		return npi;
+	}
+
+	public void setNpi(long npi) {
+		this.npi = npi;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSpecialization() {
+		return specialization;
+	}
+
+	public void setSpecialization(String specialization) {
+		this.specialization = specialization;
+	}
+	
+	@OneToMany(mappedBy = "provider", cascade = REMOVE)
+	@OrderBy
+	private List<Treatment> treatments;
+	
+	public List<Treatment> getTreatments() {
+		return treatments;
+	}
+
+	public void setTreatments(List<Treatment> treatments) {
+		this.treatments = treatments;
+	}
+	
+	@Transient
+	private ITreatmentDAO treatmentDAO;
+	
+	public void setTreatmentDAO(ITreatmentDAO tdao){
+		this.treatmentDAO = tdao;
+	}
+	
+	public void addTreatment(Treatment t){
+		this.treatmentDAO.addTreatment(t);
+		this.getTreatments().add(t);
+		if(t.getProvider() != this)
+			t.setProvider(this);
+	}
+
+	public Provider() {
+		super();
+		treatments = new ArrayList<Treatment>();
+	}
+   
+}

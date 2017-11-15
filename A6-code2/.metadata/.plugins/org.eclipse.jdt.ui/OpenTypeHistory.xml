@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ClinicDomain/src&lt;edu.stevens.cs548.clinic.domain{IPatientDAO.java[IPatientDAO" modifiers="513" timestamp="1476064912852"/>
+<typeInfo handle="=ClinicService/ejbModule&lt;edu.stevens.cs548.clinic.service.ejb{IPatientService.java[IPatientService" modifiers="513" timestamp="1476818222570"/>
+<typeInfo handle="=ClinicService/ejbModule&lt;edu.stevens.cs548.clinic.service.ejb{IPatientServiceLocal.java[IPatientServiceLocal" modifiers="513" timestamp="1476819796004"/>
+<typeInfo handle="=ClinicService/ejbModule&lt;edu.stevens.cs548.clinic.service.ejb{IPatientServiceRemote.java[IPatientServiceRemote" modifiers="513" timestamp="1476819796031"/>
+</typeInfoHistroy>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns0="http://www.example.org/clinic/schemas/patient"
+	xmlns:ns1="http://www.example.org/clinic/schemas/Treatment"
+	targetNamespace="http://www.example.org/clinic/schemas/patient">
+
+	<xsd:import schemaLocation="PatientDTO1.xsd"></xsd:import>
+	<xsd:element name="patient-dto" type="patientDTO" />
+</xsd:schema>

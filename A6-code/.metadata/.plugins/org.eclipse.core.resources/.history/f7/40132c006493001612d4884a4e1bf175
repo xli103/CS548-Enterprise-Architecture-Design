@@ -1,0 +1,29 @@
+package edu.stevens.cs548.service.ejb;
+
+import java.util.Date;
+
+import edu.stevens.cs548.clinic.service.ejb.PatientDTO;
+
+public interface IPatientService {
+	
+	public class PatientServiceExn extends Exception{
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		public PatientServiceExn(String m){
+			super(m);
+		}
+	}
+	public long createPatient(String name, Date dob, long patientId) throws PatientServiceExn;
+	
+	public PatientDTO getPatientByDbId (long id) throws PatientServiceExn;
+	
+	public PatientDTO getPatientByPatId (long pid) throws PatientServiceExn;
+	
+	public PatientDTO[] getPatientByNameDob (String name, Date dob);
+
+	//name to make sure that patient is the right one to delete
+	public void deletePatient (String name, long id) throws PatientServiceExn;
+}

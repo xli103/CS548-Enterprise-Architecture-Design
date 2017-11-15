@@ -1,0 +1,7 @@
+package edu.stevens.cs548.service.ejb;
+
+public interface IProviderService {
+	
+	public void create
+
+}

@@ -1,0 +1,12 @@
+package edu.stevens.cs548.clinic.research;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="Dali", date="2016-11-14T11:08:40.370+0800")
+@StaticMetamodel(Subject.class)
+public class Subject_ {
+	public static volatile SingularAttribute<Subject, Float> amount;
+	public static volatile SingularAttribute<Subject, Treatment> treatment;
+}

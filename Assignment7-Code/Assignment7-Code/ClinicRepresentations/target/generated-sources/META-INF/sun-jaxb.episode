@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.11 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2016.10.24 时间 03:14:07 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://cs548.stevens.edu/clinic/service/web/rest/data">
+    <schemaBindings map="false">
+      <package name="edu.stevens.cs548.clinic.service.web.rest.data"/>
+    </schemaBindings>
+    <bindings scd="~tns:TreatmentType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.TreatmentType"/>
+    </bindings>
+    <bindings scd="~tns:PatientType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.PatientType"/>
+    </bindings>
+    <bindings scd="~tns:providerType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.ProviderType"/>
+    </bindings>
+    <bindings scd="~tns:DrugTreatmentType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.DrugTreatmentType"/>
+    </bindings>
+    <bindings scd="~tns:RadiologyType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.RadiologyType"/>
+    </bindings>
+    <bindings scd="~tns:SurgeryType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.SurgeryType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://cs548.stevens.edu/clinic/service/web/rest/data/dap">
+    <schemaBindings map="false">
+      <package name="edu.stevens.cs548.clinic.service.web.rest.data.dap"/>
+    </schemaBindings>
+    <bindings scd="~tns:LinkType">
+      <class ref="edu.stevens.cs548.clinic.service.web.rest.data.dap.LinkType"/>
+    </bindings>
+  </bindings>
+</bindings>
+

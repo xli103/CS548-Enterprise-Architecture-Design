@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ClinicServiceClient/ejbModule&lt;edu.stevens.cs548.clinic.service.ejb{IProviderService.java[IProviderService" modifiers="513" timestamp="1476819699217"/>
+<typeInfo handle="=ClinicServiceClient/ejbModule&lt;edu.stevens.cs548.clinic.service.ejb{IProviderServiceLocal.java[IProviderServiceLocal" modifiers="513" timestamp="1476732789017"/>
+<typeInfo handle="=ClinicServiceClient/ejbModule&lt;edu.stevens.cs548.clinic.service.ejb{IProviderServiceRemote.java[IProviderServiceRemote" modifiers="513" timestamp="1476732808952"/>
+<typeInfo handle="=ClinicDomain/src&lt;edu.stevens.cs548.clinic.domain{ITreatmentFactory.java[ITreatmentFactory" modifiers="513" timestamp="1476737365303"/>
+<typeInfo handle="=ClinicSoapWebService/src&lt;edu.stevens.cs548.clinic.service.web.soap{IProviderWebService.java[IProviderWebService" modifiers="513" timestamp="1476769477468"/>
+</typeInfoHistroy>
